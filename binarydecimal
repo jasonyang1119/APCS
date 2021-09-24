@@ -1,0 +1,24 @@
+0. "Base" means the number of digits that a system can use. In other words, it's the number of available digits. All base-x systems start with the number zero. For 
+example, a base-10 system has access to digits 0-9 inclusive. Because it has 10 available digits to use, it is called "base-10". Another example is "base-2", which 
+has 2 available digits to use. These digits are 0 and 1.
+
+1. Binary is a system that utilizes base-2. More specifically, it runs on the digits 0 and 1. It is important in computer science because it is the easiest and most 
+efficient way to represent things electronically. It is considered the easiest and most efficient way because instead of representing numbers using a base-10 system 
+with 10 total possible digits to use, binary can represent these numbers using only two digits.
+
+2. In binary, there is a chain of 0s and 1s that represent the values in the decimal system. In order to convert a binary value into a decimal one, assign the right most 
+digit the value of "2^0". Then, going towards the left-most digit, assign the next digits the value of "2^(n+1)" where n equals the exponent of the power of 2 that was
+assigned to the previous digit. For example, the digit immediately on the left of the digit that was assigned "2^0" should be assigned the value "2^1". Keep on assigning
+powers of 2 to the digits until you reach the left-most digit. Each digit now corresponds to a power of two. Now add all of the powers of two that correspond with the 
+digit "1". Add these values up and you will get the decimal form of the binary. You may simple ignore the powers of two that correspond with a "0" digit.
+
+3. When converting from decimal to binary, first determine the greatest power of two that is less than the original decimal. For example, this value for the decimal "75" will 
+be "2^6". Let's call this value "greatest power of two". The number of digits your binary will have is equal to n+1, where n equals the exponent of the greatest power of two. You can go
+ahead and draw lines as placeholders for the digits for visualization. Underneath each imaginary digit, starting with the left-most digit, write powers of two in descending order
+from the "greatest pwoer of two" until you get to the last digit on the very right. The last digit should correspond to 2^0. If it does not, you did something wrong. The digit
+that corresponds with the greatest power of two is 1. Subtract the greatest power of two from the original decimal. How find a combination of powers of two that will equal 
+the difference you got if they are added together. These powers of two wil be assigned the digit 1 in binary. Go ahead and put "1" above these values. Now put a  "0" above the powers
+of two that you did NOT use. This is your origian decimal value in binary form.
+
+
+      
