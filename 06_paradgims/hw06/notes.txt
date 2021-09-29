@@ -1,0 +1,11 @@
+Scheme: (begin 
+          (display "Hello, World!"))
+          
+
+Netlogo:  to hello
+          print "Eello, World!"
+          end
+
+
+Java: print("hello world")
+          
