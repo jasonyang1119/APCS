@@ -1,5 +1,5 @@
 /*
-Jason Yang
+BJLT + Tommy + Bob
 APCS
 HW12: OnElderIndividualityandtheEliminationofRadioFuzz
 2021-10-05
@@ -9,6 +9,7 @@ HW12: OnElderIndividualityandtheEliminationofRadioFuzz
 DISCO: You can have an instance variable is it is in a non static class
 QCC: Why can't we just use a basic system.out.print(" ")?Would seem much simpler.
 */
+
 
 public class Greet{
 	public static void main(String[] args)
