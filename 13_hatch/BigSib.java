@@ -1,7 +1,7 @@
 /*
-BJLT + Tommy + Bob
+BJLT (Jason Yang, Lindsay Phung, Bob, Terry)
 APCS
-HW12: OnElderIndividualityandtheEliminationofRadioFuzz
+HW12: Where do BigSibs come from?
 2021-10-06
 */
 
