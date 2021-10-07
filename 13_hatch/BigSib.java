@@ -6,7 +6,7 @@ HW12: OnElderIndividualityandtheEliminationofRadioFuzz
 */
 
 /*
-DISCO: You can have an instance variable is it is in a non static class
+DISCO:Using a constructor and reduce the amount of code
 QCC: Why can't we just use a basic system.out.print(" ")?Would seem much simpler.
 */
 
