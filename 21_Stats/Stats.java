@@ -67,4 +67,15 @@ public class Stats {
     public static double geoMean(double a, double b, double c) {
         return Math.cbrt(a * b *c);
   }
+    public static void main(String args[]){
+        System.out.println(mean(10, 20));
+        System.out.println(mean(10.0, 20.0));
+        System.out.println(max(5, 10));
+        System.out.println(max(5.0, 10.0));
+        System.out.println(geoMean(10, 40));
+        System.out.println(max(5, 10, 15));
+        System.out.println(max(5.0, 10.0, 15.0));
+        System.out.println(geoMean(10.0, 40.0, 4.0));
+}
+}
 }
