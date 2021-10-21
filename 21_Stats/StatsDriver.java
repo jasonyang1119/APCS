@@ -1,3 +1,18 @@
+/*
+Swag Trio - Max Schneider, Jason Yang, Michael Kamela
+APCS
+HW21 - STAtisTically Speaking
+2021-10-20
+DISCO:
+You can use the already existing Math class to do mathematic functions such as square rooting and cube rooting.
+Math.max() can only accept two arguments. 
+You can Math.round a double value twice in order to convert it to an int.
+QCC: 
+Why do the Math.sqrt and Math.cbrt return a double? Is there a way to preset them to return an int?
+If we did not know how many arguments were provided in each of the methods, would there still be a way to get the max, mean, and geometricmean?
+ */
+
+
 public class StatsDriver {
 
         public static void main(String[] args) {
