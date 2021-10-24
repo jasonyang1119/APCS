@@ -1,3 +1,24 @@
+/* DJ - Jason Yang, David Chen
+   APCS
+   HW23 -- What does Equality Look Like?
+   2021-10-23
+   time spent: 1.0 hours
+   DISCO: Printing the object name automatically invokes the toString() method of the class.
+          Math.random returns a random value between 0.0 and 1.0
+   QCC: N/A
+ */
+          
+
+
+
+
+
+
+
+
+
+
+
 /***
     driver for class Coin
     ~~~ SUGGESTED WORKFLOW: ~~~
