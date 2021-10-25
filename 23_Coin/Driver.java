@@ -9,18 +9,6 @@
  */
           
 
-/***
-    driver for class Coin
-    ~~~ SUGGESTED WORKFLOW: ~~~
-    1. Compile this file and run. Note anything notable.
-    2. Move the "TOP" line down, so that it is below the first statement.
-    (emacs: with cursor at beginning of TOP line, C-k C-k, DOWN, DOWN, C-y)
-    (your editor: ???)
-    3. Compile and run again.
-    4. Resolve errors one at a time until it works.
-    5. Repeat 2-4 until TOP meets BOTTOM.
-***/
-
 public class Driver {
 
   public static void main( String[] args ) {
@@ -35,9 +23,6 @@ public class Driver {
     System.out.println("wayne: " + wayne);
     //test flip() method
     System.out.println("\nAfter flipping...");
-   
-    // int matchCtr = 0;
-    while (yours.headsCtr < 69 
     yours.flip();
     wayne.flip();
     System.out.println("yours: " + yours);
@@ -84,3 +69,4 @@ public class Driver {
   }//end main()
 
 }//end class
+
