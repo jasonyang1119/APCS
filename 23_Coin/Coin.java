@@ -23,8 +23,7 @@ public class Coin {
    * Coin() -- default constuctor precond: postcond:
    ***/
   public Coin() {
-    bias = 0.5;
-    upFace = "heads";
+    reset ( "heads", 0.5);
   }
 
   /***
@@ -32,24 +31,17 @@ public class Coin {
    * "nickel", "dime", "quarter", "half dollar", "dollar" postcond:
    ***/
   public Coin(String s) {
-    if (s == "penny" || s == "nickel" || s == "dime" || s == "quarter" || s == "half dollar" || s == "dollar") {
+      this();
       name = s;
-      bias = 0.5;
-      upFace = "heads";
-    }
+      assignValue(s);
   }
 
   /***
    * Coin(String,String) -- precond: postcond:
    ***/
   public Coin(String s, String nowFace) {
-    if (s == "penny" || s == "nickel" || s == "dime" || s == "quarter" || s == "half dollar" || s == "dollar") {
-      if (nowFace == "heads" || nowFace == "tails") {
-        name = s;
-        upFace = nowFace;
-        bias = 0.5;
-      }
-    }
+        this(s);
+	upFace = nowFace; 
   }
 
   // Accessors...
@@ -81,24 +73,23 @@ public class Coin {
    * gets appropriate value Returns value assigned.
    ***/
   private double assignValue(String s) {
-    if (s == "penny" || s == "nickel" || s == "dime" || s == "quarter" || s == "half dollar") {
-      if (s == "penny") {
+      if (name.equals("penny")) {
         value = 0.01;
-      } else if (s == "nickel") {
+      } else if (name.equals("nickel")) {
         value = 0.05;
-      } else if (s == "dime") {
+      } else if (name.equals("dime")) {
         value = 0.1;
-      } else if (s == "quarter") {
+      } else if (name.equals("quarter")) {
         value = 0.25;
-      } else if (s == "half dollar") {
+      } else if (name.equals("half dollar")) {
         value = 0.50;
-      } else if (s == "dollar")
-        value = 1.00;
+      } else if (name.equals("dollar")) {
+        value = 1;
     } else {
       System.out.println("Invalid coin name.");
       return 0.0;
-    }
-    return value;
+}
+      return value;
   }
 
   /***
@@ -108,7 +99,7 @@ public class Coin {
   public void reset(String s, double d) {
     if ((s == "heads" || s == "tails") && (d >= 0.0 && d <= 1.0)) {
       upFace = s;
-      bias = 0.5;
+      bias = d;
       flipCtr = 0;
       headsCtr = 0;
       tailsCtr = 0;

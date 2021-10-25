@@ -35,6 +35,9 @@ public class Driver {
     System.out.println("wayne: " + wayne);
     //test flip() method
     System.out.println("\nAfter flipping...");
+   
+    // int matchCtr = 0;
+    while (yours.headsCtr < 69 
     yours.flip();
     wayne.flip();
     System.out.println("yours: " + yours);
