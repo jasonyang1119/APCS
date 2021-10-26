@@ -1,11 +1,12 @@
 /* DJ - Jason Yang, David Chen
    APCS
-   HW23 -- What does Equality Look Like?
-   2021-10-23
+   HW24 -- Get It While You Can -- Using while loops to stop the code at a certain point
+   2021-10-25
    time spent: 1.0 hours
-   DISCO: Printing the object name automatically invokes the toString() method of the class.
-          Math.random returns a random value between 0.0 and 1.0
-   QCC: N/A
+   DISCO: ++ increases the value of a variable by one
+   	  this() invokes the current class constructor
+   QCC: Can there be nested loops?
+   POST-v0 MODS: Got rid of extra conditionals; Simplified code using .equals; used .this() in constructors
  */
 
 public class Coin {

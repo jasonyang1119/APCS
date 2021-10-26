@@ -1,3 +1,14 @@
+/* DJ - Jason Yang, David Chen
+   APCS
+   HW24 -- Get It While You Can -- Using while loops to stop the code at a certain point
+   2021-10-25
+   time spent: 1.0 hours
+   DISCO: ++ increases the value of a variable by one
+   	  this() invokes the current class constructor
+   QCC: Can there be nested loops?
+   POST-v0 MODS: Got rid of extra conditionals; Simplified code using .equals; used .this() in constructors
+ */
+
 
 public class Driver {
 
