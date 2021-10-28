@@ -1,3 +1,13 @@
+/* 
+Swag Trio -- Max Schneider, Michael Kamela, Jason Yang
+APCS
+HW25- Do I repeat myself? - Using while loop and recursion to print certain number of "fences".
+2021-10-26
+time spent: 0.8 hours
+DISCO: Using -- after a an int variable decreases that value by 1
+QCC: N/a
+*/
+
 public class Repeater {
     public static String fenceW(int numPosts){
         String firstFence = "|";
