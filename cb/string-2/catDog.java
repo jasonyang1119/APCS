@@ -1,3 +1,15 @@
+//Return true if the string "cat" and "dog" appear the same number of times in the given string.
+
+
+
+public class catDog {
+    public static void main(String[] args) {
+        catDog test = new catDog();
+        System.out.println(test.catDog("catdog"));
+        System.out.println(test.catDog("catcat"));
+        System.out.println(test.catDog("1cat1cadodog"));
+    }
+
 public boolean catDog(String str) {
   int catcounter = 0;
   int dogcounter = 0;
@@ -14,4 +26,5 @@ public boolean catDog(String str) {
   } else {
     return false;
   }
+}
 }
