@@ -1,5 +1,6 @@
 
-/*Return true if the given string contains an appearance of "xyz" where the xyz is not directly preceeded by a period (.). So "xxyz" counts but "x.xyz" does not. */
+/*Return true if the given string contains an appearance of "xyz" where the xyz
+is not directly preceeded by a period (.). So "xxyz" counts but "x.xyz" does not. */
 
 public static void main(String[] args) {
         xyzThere test = new xyzThere();
