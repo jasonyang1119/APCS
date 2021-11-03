@@ -1,5 +1,5 @@
 /*
-Max Schneider
+Swag Trio- Max Schneider. Jason Yang. Michael Kamela
 APCS
 HW29 -- Which Way Do You Roll?/Recursion vs Iteration/Turned integers into strings with appropriae commas
 2021-11-01
