@@ -1,0 +1,33 @@
+Jason Yang
+APCS
+HW36 -- All Quacked Up
+2021-11-17
+time spent: 0.5 hours
+
+
+Three Main Types of Errors
+    - Compile time errors are technical errors such as syntax
+    - Runtime errors - errors that occur because of the code itself such as infinite recursion loop
+    - Logic Errors - the code is not doing what you want it to do but the machine can't tell you what to do
+
+Compile-time Errors
+    - Always use incremental development
+    - Only the first error message is truly reliable
+    - Read errors correctly and make sure there are matching parenthesis and semicolons
+    - Don't always listen to what the compiler is telling you to do
+
+Runtime Errors
+    - If the program is "hanging", then it is probably in an infinite loop/recursion and you should make changes to the loop (such as a base case)
+    - Add print statements to experiment with the execution
+    - Try make sure there aren't any null variables
+    - Try simplifying print statements
+
+Logic Errors
+    - Create a flowchart or something on a sheet of paper
+    - Use == to check if objects are identical and .equals to check for equivalence
+    - Simplify complex lines of code
+    - If you are really stuck, try stepping away from the computer for a few minutes
+    - Bring someone else in to look at your code
+    - Keep in mind even the best programmers get stuck
+    - If you found the bug, take a min to see what caused the bug and how you could have 
+    found it faster  
