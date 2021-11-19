@@ -1,24 +1,24 @@
 public class Monster{
-	private boolean status;
-	private int health;
-	private int damage;
-	private int defense;
-	
+	public boolean status;
+	public int health;
+	public int damage;
+	public int defense;
+
 	public Monster(){
-	health = 100;
-	damage = 500;
+	health = 200;
+	damage = 50;
 	defense = 25;
 	status = true;
 	}
-	
+
 	public boolean isAlive(){
-	return status;
-	
+		return (health <= 0);
 }
+
 	public int attack( Protagonist protagonistname){
 	int d = damage - protagonistname.defense;
 	protagonistname.health = protagonistname.health - d;
-	if (protagonistname.health =< 0){
+	if (protagonistname.health <= 0){
 		protagonistname.status = false;
 	}
 	return d;

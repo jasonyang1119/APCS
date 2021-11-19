@@ -1,45 +1,43 @@
 public class Protagonist{
-	private String name;
-	private boolean status;
-	private int health;
-	private int damage;
-	private int defense;
-	
+	public String name;
+	public boolean status;
+	public int health;
+	public int damage;
+	public int defense;
+
 	public Protagonist(String protagonistname){
-	health = 100;
-	damage = 100;
-	defense = 25;
+	health = 500;
+	damage = 60;
+	defense = 100;
 	name = protagonistname;
 	status = true;
 	}
-	
+
 	public boolean isAlive(){
-	return status;
+	return (health <= 0);
 }
 
 	public void specialize(){
 	damage = 1000;
 	defense = 10;
-	
+
 }
 	public void normalize(){
-	damage = 50;
-	defense = 25;
-	
+	damage = 5;
+	defense = 1;
+
 	}
-	
+
 	public int attack(Monster monstername ){
 	int d = damage - monstername.defense;
 	monstername.health = monstername.health - d;
-	if (monstername.health =< 0){
+	if (monstername.health <= 0){
 		monstername.status = false;
 		}
 	return d;
 	}
-	
+
 	public String getName(){
 	return name;
 	}
 	}
-	
-
