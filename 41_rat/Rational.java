@@ -18,8 +18,17 @@ public class Rational{
     }
 
     public Rational (int num, int den){
-        numerator = num;
         denominator = den;
+        numerator = num;
+        if (denominator == 0){
+          System.out.println("invalid denominator, set new number to 0/1");
+          denominator = 1;
+          numerator = 0;
+        }
+        else {
+          denominator = den;
+          numerator = num;
+        }
     }
 
     public String toString(){
@@ -52,6 +61,8 @@ public class Rational{
         System.out.println(r.floatValue());
         System.out.println(s.floatValue());
 
+        Rational w = new Rational(4,0);
+        System.out.println(w.toString());
 
     }
 }
