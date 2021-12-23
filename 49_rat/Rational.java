@@ -1,3 +1,22 @@
+/*
+Java Coffee: Courtney Huang, Yuki Feng, Jason Yang
+APCS
+HW49 -- Rational Standards Compliance
+12/22/21
+time: 1hr
+2021-12-23
+*/
+
+/*
+DISCO:
+We can use "instaceof" to see if an Object is an instance of a certain class.
+throw new ClassCastException allows you to custom your own error message
+
+QCC:
+what if there were two different objects as inputs?
+*/
+
+
 public class Rational{
     private int denominator;
     private int numerator;
@@ -72,7 +91,7 @@ public class Rational{
     public int compareTo(Object other){
     if (other instanceof Rational) {
       Rational r = (Rational) other;
-  
+
       return (this.numerator * r.denominator) - (this.denominator * r.numerator);
     }
     throw new ClassCastException("\n CompareTo() input not a Rational");
