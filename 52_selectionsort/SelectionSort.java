@@ -96,15 +96,13 @@ public class SelectionSort
   //                Returns sorted copy of input ArrayList.
   public static ArrayList<Comparable> selectionSort( ArrayList<Comparable> input )
   {
-    //declare and initialize empty ArrayList for copying
+ 
     ArrayList<Comparable> data = new ArrayList<Comparable>();
-
-    //copy input ArrayList into working ArrayList
+ 
     for (Comparable o : input) {
           data.add(o);
       }
 
-      // sort working ArrayList
       selectionSortV(data);
 
       return data;
